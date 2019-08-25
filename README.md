@@ -8,7 +8,7 @@ https://gitpod.io/#github.com/hpssjellis/easy-nodejs-iota-send-token
 
 
 
-***BEST TO CHANGE THIS LINE is app.js TO A RANDOM SEED YOU MADE UP. 
+***BEST TO CHANGE THIS LINE in app.js TO A RANDOM SEED YOU MADE UP. 
 
 ```const mySeed =   'DONOTSTOREYOURSEEDONAPUBLICGITHUBSITEASANYONECANSTEALALLYOUR9IOTATOKENSKEEPITSAFE' // Your secret 81 seed [A-Z9]```
 

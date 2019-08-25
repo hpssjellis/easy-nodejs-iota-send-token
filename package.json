@@ -8,11 +8,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "express": "^4.17.1",
     "@iota/core" : "^1.0.0-beta.21",
-    "@iota/mam": "^0.7.3",
-    "@iota/transaction-converter": "^1.0.0-beta.21",
-    "@iota/converter": "^1.0.0-beta.21",
-    "zeromq": "^5.1.0"
+    "@iota/converter": "^1.0.0-beta.21"
   }
 }

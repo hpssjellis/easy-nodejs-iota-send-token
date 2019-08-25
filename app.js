@@ -1,3 +1,18 @@
+/////////////////////////////////////////////////////////////////
+////
+//// Easy send IOTA Tokens
+////
+////////////////////////////////////////////////////////////////
+
+const iotaLibrary = require('@iota/core')
+const Converter   = require('@iota/converter')
+
+
+            //   'ABCDEFGHIJKLMNOPQRSTUVWXYZ9ABCDEFGHIJKLMNOPQRSTUVWXYZ9ABCDEFGHIJKLMNOPQRSTUVWXYZ9'
+const mySeed =   'DONOTSTOREYOURSEEDONAPUBLICGITHUBSITEASANYONECANSTEALALLYOUR9IOTATOKENSKEEPITSAFE' // Your secret 81 seed [A-Z9]
+
+
+
 const iota = iotaLibrary.composeAPI({
     provider: 'https://nodes.iota.cafe:443'   // This is the main net not development
 })
